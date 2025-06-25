@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+  --cor-principal: #6E859F;
+  --cor-secundaria: #284260;
+  --cor-destaque: #C92BFC;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  color: var(--cor-principal);
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+}
+
+.lead, .btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
+
+a, .btn-link:hover {
+  color: var(--cor-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cor-destaque);
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #d2d3d5;
+  background-size: cover;
+  background-position: center;
+}
+
+/* DICA: para adicionar imagem redonda do usuário */
+.foto-perfil {
+  background-image: url('img/sua-foto-aqui.png'); /* Substitua pelo caminho da sua foto */
+}
